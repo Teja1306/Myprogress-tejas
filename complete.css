@@ -79,10 +79,9 @@ body {
     margin: 0 auto;
     width: 100%;
     gap: 4rem;
-    background-color: transparent; /* transparent white color fo r the bg */
-    background-color: transparent; /* transparent white color fo r the bg */
-    backdrop-filter: blur(10px); /* blur effect for the containerr */
-    -webkit-backdrop-filter: blur(10px); /* filterrrr */
+    background-color: transparent; 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     border-radius: 25px;
@@ -593,7 +592,6 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 2rem;
-    /* box-shadow: #8a02c0; */
     box-shadow: 0 0 30px violet
 }
 
@@ -609,13 +607,6 @@ body {
     color: #cccccc;
 }
 
-.contact-description {
-    font-size: 1.rem;
-    line-height: 1.8;
-    color: #aaaaaa;
-    margin-bottom: 3rem;
-}
-
 .contact-social {
     display: flex;
     justify-content: center;
@@ -625,8 +616,8 @@ body {
 /* Contact Form */
 .contact-form-container {
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px); /* blur effect for the containerr */
-    -webkit-backdrop-filter: blur(10px); /* filterrrr */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     backdrop-filter: blur(10px);
